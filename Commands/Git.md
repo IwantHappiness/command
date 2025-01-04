@@ -18,7 +18,6 @@
 # Инициализация репозитория
 
 `git init` - инициализация репозитория. #InitRep 
-`git commit -m` _<Название коммита>_ - фиксация изменений.  
 
 ---
 ## Клонирование существующего репозитория
@@ -47,7 +46,34 @@
 `git add` _<Файл>_ - индексировать файл.  #AddFileStaged  
  └── `git add .`  - индексировать **все** файлы.  #AddAllFileStaged  
 `git status` - определяет какие файлы в каком состоянии. #Status  
-  └── `git status -s` - выводит более краткую информацию. #StatusShort  
+ └── `git status -s` - выводит более краткую информацию. #StatusShort  
+
+---
+## Коммит изменений 
+
+`git commit` -  откроет выбранный вами текстовый редактор. #CreateCommit  
+ ├── `git commit -m` _<Название коммита>_ - фиксация изменений. #CreateCommitShort  
+ └── `git commit -v`  - в комментарий будет также помещена дельта/diff изменений. #CreateCommitDetailed  
+
+В редакторе будет отображён следующий текст (это пример окна Vim):
+
+```
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	new file:   README
+#	modified:   CONTRIBUTING.md
+#
+~
+~
+~
+".git/COMMIT_EDITMSG" 9L, 283C
+```
+По умолчанию для коммита содержит закомментированный результат работы команды git status и ещё одну пустую строку сверху.  
+Вы можете удалить эти комментарии и набрать своё сообщение или же оставить их для напоминания о том, что вы фиксируете.
 
 ---
 ## Игнорирование файлов
@@ -89,5 +115,5 @@ doc/**/*.txt
 ---
 ## Просмотр индексированных и неиндексированных изменений
 
-`git diff` - для просмотра непроиндексированных изменений.  
+`git diff` - для просмотра непроиндексированных изменений. #GitDiff 
  └── `git diff --staged` - сравнивает ваши проиндексированные изменения с последним коммитом.  

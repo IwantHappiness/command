@@ -1,4 +1,0 @@
-[[Terminal]]  
-[[Git]]  
-[[Cargo]]  
-[[Docker]]  

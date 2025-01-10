@@ -15,7 +15,7 @@
 `git config --global init.defaultBranch` _<Название>_ - выбор ветки по дефолту. #GitAddBranchNameConfig  
 
 ---
-# Инициализация репозитория
+## Инициализация репозитория
 
 `git init` - инициализация репозитория. #GitInitRep 
 

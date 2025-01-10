@@ -132,7 +132,7 @@ doc/**/*.txt
  ├── `--name-status` - показывает список файлов, которые добавлены/изменены/удалены. #GitLogNameStatus  
  ├── `--abbrev-commit`
  ├── `-p` - показывает разницу внесенный в каждым коммит. #GitLogPatch  
-	 └── `-p -<Число>` - показывает разницу ограничив вывод фkji количество до указанных.  
+	 └── `-p -<Число>` - показывает разницу ограничив вывод количества коммитов.  
  └── `--pretty`  - меняет формат вывода. #GitLogPretty  
 	 ├── `--pretty=full`  - выводит полную информацию. #GitLogPrettyFull  
 	 ├── `--pretty=short`  - выводит сокращенную информацию о коммитах. #GitLogPrettyShort  
@@ -140,8 +140,17 @@ doc/**/*.txt
      ├── `--pretty=oneline`  - выводит каждый коммит в одну строку. #GitLogPrettyOneline  
 	 └── `--pretty=format` - отображает наиболее полезные опции для изменения формата. #GitLogPrettyFormat  
 
+Пример использования git log --pretty=format:  
 
-Полезные опции для git log --pretty=format
+```
+$ git log --pretty=format:"%h - %an, %ar : %s"
+ca82a6d - Scott Chacon, 6 years ago : Change version number
+085bb3b - Scott Chacon, 6 years ago : Remove unnecessary test
+a11bef0 - Scott Chacon, 6 years ago : Initial commit
+```
+
+
+Полезные опции для git log --pretty=format:  
 
 | Опция | Описание вывода                                             |
 | ----- | ----------------------------------------------------------- |

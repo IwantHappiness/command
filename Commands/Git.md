@@ -130,17 +130,17 @@ doc/**/*.txt
  ├── `--shortstat` - показывает только строку с количеством изменений/вставок/удалений для команды --stat. #GitLogShortStat  
  ├── `--name-only` - показывает список изменённых файлов после информации о коммите. #GitLogNameOnly  
  ├── `--name-status` - показывает список файлов, которые добавлены/изменены/удалены. #GitLogNameStatus  
- ├── `--abbrev-commit`
+ ├── `--abbrev-commit` - показывает только несколько символов SHA-1 чек-суммы вместо всех 40. #GitLogAbbrev  
  ├── `-p` - показывает разницу внесенный в каждым коммит. #GitLogPatch  
 	 └── `-p -<Число>` - показывает разницу ограничив вывод количества коммитов.  
- └── `--pretty`  - меняет формат вывода. #GitLogPretty  
-	 ├── `--pretty=full`  - выводит полную информацию. #GitLogPrettyFull  
-	 ├── `--pretty=short`  - выводит сокращенную информацию о коммитах. #GitLogPrettyShort  
-	 ├── `--pretty=fuller`  - выводит наиболее полную информацию о коммитах. #GitLogPrettyFull  
-     ├── `--pretty=oneline`  - выводит каждый коммит в одну строку. #GitLogPrettyOneline  
+ └── `--pretty` - меняет формат вывода. #GitLogPretty  
+	 ├── `--pretty=full` - выводит полную информацию. #GitLogPrettyFull  
+	 ├── `--pretty=short` - выводит сокращенную информацию о коммитах. #GitLogPrettyShort  
+	 ├── `--pretty=fuller` - выводит наиболее полную информацию о коммитах. #GitLogPrettyFull  
+     ├── `--pretty=oneline` - выводит каждый коммит в одну строку. #GitLogPrettyOneline  
 	 └── `--pretty=format` - отображает наиболее полезные опции для изменения формата. #GitLogPrettyFormat  
 
-Пример использования git log --pretty=format:  
+Пример использования `git log --pretty=format:`  
 
 ```
 $ git log --pretty=format:"%h - %an, %ar : %s"
@@ -150,7 +150,7 @@ a11bef0 - Scott Chacon, 6 years ago : Initial commit
 ```
 
 
-Полезные опции для git log --pretty=format:  
+Полезные опции для `git log --pretty=format:`  
 
 | Опция | Описание вывода                                             |
 | ----- | ----------------------------------------------------------- |

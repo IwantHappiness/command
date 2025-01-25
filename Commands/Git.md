@@ -8,7 +8,7 @@
  
 Первое, что вам следует сделать после установки Git — указать ваше имя и адрес электронной почты. Это важно, потому что каждый  
 коммит в Git содержит эту информацию, и она включена в коммиты, передаваемые вами, и не может быть далее изменена:  
-	`git config` _<Oпция>_ `user.name` "_<Имя>_"  - указывает имя юзера. #GitAddNameConfig  
+	`git config` _<Oпция>_ `user.name` "_<Имя>_" - указывает имя юзера. #GitAddNameConfig  
 	`git config` _<Oпция>_ `user.email` "_<Почта>_" - указывает почту юзера. #GitAddEmailConfig  
 
 `git config --global core.editor` _<Название>_ - выбор редактора для набора сообщения. #GitAddEditorConfig  
@@ -45,7 +45,7 @@
 - Untracked - Файл не отслеживается.
 
 `git add` _<Файл>_ - индексировать файл.  #GitAddFileStaged  
- └── `git add .`  - индексировать **все** файлы.  #GitAddAllFileStaged  
+ └── `git add .` - индексировать **все** файлы.  #GitAddAllFileStaged  
 `git status` - определяет какие файлы в каком состоянии. #GitStatus  
  └── `status -s` - выводит более краткую информацию. #GitStatusShort  
 

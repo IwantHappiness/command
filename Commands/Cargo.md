@@ -54,6 +54,6 @@
 ## Crates.io
 
 `cargo login` _<Логин>_ - команда сообщит Cargo об API токене и сохранит его `~/.cargo/credentials`. #CargoApiToken  
- ├── `cargo publish` - опубликует пакет в [Crates.io](https://crates.io/)  
+ ├── `cargo publish` - опубликует пакет в[ Crates.io](https://crates.io/)  
  ├── `--vers` _<НОМЕР ВЕРСИИ>_ - вычеркивает номер версии не позволяет новым проектам от нее зависеть.  
  └── `--vers` _<НОМЕР ВЕРСИИ>_ `--undo` - отменяет вычеркивание и разрешает снова зависеть от этой версии.

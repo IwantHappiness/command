@@ -4,6 +4,6 @@
 
 ---
 
-[Git](Commands/Git)  
-[Cargo](Commands/Cargo)  
-[Docker](Commands/Docker)  
+[Git](Commands/Git.md)  
+[Cargo](Commands/Cargo.md)  
+[Docker](Commands/Docker.md)  

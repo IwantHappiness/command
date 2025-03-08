@@ -202,9 +202,8 @@ a11bef0 - Scott Chacon, 6 years ago : Initial commit
  ├── `add` _<Краткое имя>_ _<Ссылка>_ - добавление удаленных репозиториев. #GitRemoteAdd  
  ├── `show` _Remote_name_ - подробная информация об удаленной репе. #GitRemoteShow  
  ├── `rename` _<Remote_name>_ _New remote name_ - переименование удаленной репы. #GitRemoteRename  
- └── `remove` _Remote_name_ - удаление  
+ └── `rm` _Remote_name_ - удаление удаленной репы. #GitRemoteRemove   
+ 
 `git fetch` _Remote_name_ - связывается с указанным удалённым проектом и забирает все те данные проекта, которых у вас ещё нет. #GitFetch  
 
 `git pull` - отслеживает удаленную ветку и автоматически получает данные соединяя их со своей текущей. #GitPull  
-
-`git push` - отправка изменений в удаленный репозиторий. #GitPush  

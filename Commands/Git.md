@@ -210,3 +210,6 @@ a11bef0 - Scott Chacon, 6 years ago : Initial commit
 
 ---
 ## Теги
+
+`git tag` - выводит полный список тегов. #GitTag  
+ ├── `-l` - выводит список по шаблону. #GitTagList  

@@ -4,6 +4,7 @@
 [Помощь по командам](utilities/Git/Help.md)  
 [Инициализация репозитория](utilities/Git/Init-repo.md)  
 [Клонирование репозитория](utilities/Git/Clone-repo.md)  
+[Удаленный репозиторий](utilities/Git/Remote-repo.md)
 [Cостояния файлов](utilities/Git/Status-file.md)  
 [Игнорирование файлов](utilities/Git/Ignore-files.md)  
 [Коммит](utilities/GIt/Commit.md)  
